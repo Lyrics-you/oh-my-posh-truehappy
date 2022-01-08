@@ -9,6 +9,11 @@ This is a oh-my-posh theme named truehappy. It used for Windows Terminal.
 
 ![powershell2](https://image-taragrade.oss-cn-hangzhou.aliyuncs.com/imagehub/powershell2.jpg)
 
+毛玻璃特效
+
+![windows terminal](https://image-taragrade.oss-cn-hangzhou.aliyuncs.com/imagehub/windows%20terminal.jpg)
+
+在VS Code 中
 ![VS Code](https://image-taragrade.oss-cn-hangzhou.aliyuncs.com/imagehub/VS%20Code.jpg)
 
 ## 简介
