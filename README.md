@@ -16,6 +16,10 @@ This is a oh-my-posh theme named truehappy. It used for Windows Terminal.
 在VS Code 中
 ![VS Code](./Picture/VS%20Code.jpg)
 
+oh-my-zsh truehappy主题
+
+![iterm2](./Picture/iterm2.png)
+
 ## 简介
 
 用来自用的oh-myposh的主题"truehappy",这个主题配置的时候参考了很多其他的主题例如(material,space,ys等)。
