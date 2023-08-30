@@ -2,7 +2,7 @@
  * FileName: Microsoft.PowerShell_profile.ps1
  * Author: Leyuan Jia
  * Email: Leyuan.Jia@outlook.com
- * Date: 2021, Aug. 24th
+ * Date: 2023, Agu. 27th
  * Copyright: No copyright. You can use this code for anything with no warranty.
 #>
 
@@ -18,6 +18,17 @@ Import-Module oh-my-posh
 # Sorin/Agnoster/Paradox/half-life/material/pure/ys/spaceship/space
 # Get-PoshThemes查看所有主题
 Set-PoshPrompt -Theme truehappy
+
+# GOPROXY
+$env:GOPROXY = "https://proxy.golang.com.cn,direct"
+
+# RSPROXY
+$env:RUSTUP_DIST_SERVER="https://rsproxy.cn"
+$env:RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+
+# Git Proxy
+git config --global http.proxy 127.0.0.1:7890
+git config --global https.proxy 127.0.0.1:7890
 #------------------------------- Import Modules END   -------------------------------
 
 
@@ -103,4 +114,5 @@ function ListDirectory {
 }
 Set-Alias -Name ls -Value ListDirectory
 Set-Alias -Name ll -Value Get-ChildItem
+Set-Alias -Name wget -Value Invoke-WebRequest
 #-------------------------------    Set Alias END     -------------------------------
